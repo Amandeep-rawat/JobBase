@@ -59,7 +59,7 @@ const LandingPage = () => {
      
 
 
-      <img className='w-1/2 m-auto' src="src/assets/slider2.png" alt="slider2" />
+      <img className='w-1/2 m-auto' src="/assets/slider2.png" alt="slider2" />
       
 
   <section className='grid grid-cols-1 md:grid-cols-2 gap-4'>

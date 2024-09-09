@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link, NavLink, useParams } from 'react-router-dom'
 import { Button } from './ui/button'
-import logo from '../assets/mylogo.svg'
+
 import { useState } from 'react'
 import { SignedIn, SignedOut, SignIn, SignInButton, UserButton, useUser } from "@clerk/clerk-react";
 import { Briefcase, BriefcaseBusiness, Heart, PenBox } from 'lucide-react';
@@ -43,7 +43,7 @@ const Header = () => {
     <>
       <nav className='py-4 flex justify-between items-center'>
         <NavLink>
-          <h2 className='max-sm:w-36'><img src={logo} alt="" /></h2>
+          <h2 className='max-sm:w-36'><img src="/assets/mylogo.svg" alt="" /></h2>
         </NavLink>
 
         <div className='flex gap-8'>
