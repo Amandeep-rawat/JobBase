@@ -95,7 +95,7 @@ const Header = () => {
         </div>
       </nav>
       {
-        showSignIn && <div onClick={handleOverlayClick} className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" >
+        showSignIn && <div onClick={handleOverlayClick} className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50" >
           <SignIn signUpForceRedirectUrl='/onboarding' fallbackRedirectUrl='/onboarding'></SignIn>
         </div>
       }

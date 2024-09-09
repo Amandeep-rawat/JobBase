@@ -39,7 +39,7 @@ const LandingPage = () => {
       {/* crousers */}
       <Carousel plugins={[  Autoplay({delay:2000})]} loop={true}
 
-        className="w-full max-sm:w-[90%] max-sm:m-auto py-10" >
+        className="w-full max-sm:w-[90%] max-sm:m-auto py-10 relative z-10 " >
         <CarouselContent className="flex justify-between gap-3 md:gap-20  items-center">
           {data.map(({name,id,path})=>{
             return (
